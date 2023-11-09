@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ActiveIcons from "./ActiveIcons";
-
 function NavIcons() {
   const [navIcons]=useState([
     {   
