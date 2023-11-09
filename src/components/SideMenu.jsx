@@ -1,5 +1,5 @@
 import React from 'react'
-import NavIcons from './navBar/NavIcons'
+import NavIcons from './navBars/NavIcons'
 
 function SideMenu() {
   return (
