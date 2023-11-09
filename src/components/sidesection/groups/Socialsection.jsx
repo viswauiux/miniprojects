@@ -34,7 +34,7 @@ function Socialsection() {
       </div>
       <div
         style={{ zIndex: "10" }}
-        className="p-4  rounded-xl bg-slate-800 shadow-lg "
+        className="p-4  rounded-xl bg-slate-900 shadow-lg "
       >
         <div className="flex flex-col gap-1 ">
           <h1 className="text-slate-300 text-xs">Rocket League update</h1>
