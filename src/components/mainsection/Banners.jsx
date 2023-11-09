@@ -25,11 +25,11 @@ function Banners() {
         </div>
         <div className="w-full z- absolute h-full" style={{background:"radial-gradient(52.7% 52.7% at 49.87% 0%, rgba(255, 212, 102, 0.28) 0%, rgba(255, 230, 166, 0.18) 34.89%, rgba(217, 217, 217, 0) 100%)"}}>
         </div>
-      </div>
-      <div className="flex justify-end absolute right-4 gap-2 my-3 ">
+      <div className="flex justify-end absolute -bottom-10 right-4 gap-2 my-3 ">
         <button className='h-1 w-4 rounded-md bg-white'></button>
         <button className='h-1 w-3 rounded-md bg-slate-300'></button>
         <button className='h-1 w-3 rounded-md bg-slate-300'></button>
+      </div>
       </div>
     </>
   )
