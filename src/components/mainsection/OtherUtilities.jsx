@@ -30,7 +30,13 @@ function OtherUtilities() {
           </div>
         </div>
         <div className="relative h-24 w-24">
-         
+        <div className="h-24 w-24 rounded-lg absolute overflow-hidden">
+            <img
+              className="object-fill "
+              src="https://i.ibb.co/HPMm5kD/Headphones.png"
+              alt=""
+            />
+          </div>
           <div
             className="h-14 w-32 -left-5 top-5 absolute z-0 gradi rounded-2xl"
             style={{ transform: "skew(-10deg, -10deg)" }}
