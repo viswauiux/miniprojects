@@ -74,8 +74,7 @@ function OtherUtilities() {
         <div className=" flex justify-between items-center mx-5">
 
           <div
-            style={{ zIndex: "10" }}
-            className=" flex gap-2 rounded-xl my-1  "
+            className=" flex gap-2 w-56 rounded-xl my-1  "
           >
            <div className="h-8 w-8 rounded-lg overflow-hidden">
             <img
@@ -98,8 +97,7 @@ function OtherUtilities() {
         <div className=" flex justify-between items-center mx-5">
 
           <div
-            style={{ zIndex: "10" }}
-            className=" flex gap-2 rounded-xl my-1 w-24 "
+            className=" flex gap-2 w-56  rounded-xl my-1  "
           >
             <div className="h-8 w-8 bg-black  rounded-lg overflow-hidden">
               <img
@@ -122,8 +120,8 @@ function OtherUtilities() {
         <div className=" flex justify-between items-center mx-5">
 
           <div
-            style={{ zIndex: "10" }}
-            className=" flex gap-2 rounded-xl my-1  "
+            
+            className=" flex gap-2 w-56  rounded-xl my-1  "
           >
             <div className="h-8 w-8 bg-black rounded-lg overflow-hidden">
               <img
