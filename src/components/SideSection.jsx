@@ -1,8 +1,11 @@
 import React from 'react'
+import SideSContainer from './sidesection/SideSContainer'
 
 function SideSection() {
   return (
-    <div className='w-72 bg-slate-900'>SideSection</div>
+    <div className='w-96  '>
+      <SideSContainer/>
+    </div>
   )
 }
 

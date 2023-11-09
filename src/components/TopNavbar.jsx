@@ -1,8 +1,13 @@
 import React from 'react'
+import SearchBox from './topsearchbar/SearchBox'
+import Useruitilities from './topsearchbar/Useruitilities'
 
 function TopNavbar() {
   return (
-    <div className='w-full bg-slate-200'>TopNavbar</div>
+    <div className='w-full my-3 justify-between flex'>
+      <SearchBox/>
+      <Useruitilities/>
+    </div>
   )
 }
 

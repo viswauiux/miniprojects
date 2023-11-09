@@ -1,8 +1,11 @@
 import React from 'react'
+import MainSContainer from './mainsection/MainSContainer'
 
 function MainSection() {
   return (
-    <div className='w-full  bg-zinc-800'>MainSection</div>
+    <div className='w-full  '>
+      <MainSContainer/>
+    </div>
   )
 }
 

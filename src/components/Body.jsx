@@ -4,7 +4,7 @@ import SideMenu from './SideMenu'
 
 function Body() {
   return (
-    <div className='2xl:container m-auto flex justify-between h-full' >
+    <div className=' m-auto flex  justify-between h-full'  style={{Width:"1180px"}}>
         <SideMenu/>
         <SectionContainer/>
     </div>

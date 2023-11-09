@@ -5,9 +5,9 @@ import TopNavbar from './TopNavbar'
 
 function SectionContainer() {
   return (
-    <div className='h-full flex flex-col bg-slate-500 w-full'>
+    <div className='h-full  flex flex-col  w-full'>
         <TopNavbar/>
-        <div className='flex  h-screen'>
+        <div className='flex justify-between  h-screen'>
         <MainSection/>
         <SideSection/>
         </div>

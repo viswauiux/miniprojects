@@ -2,4 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
- 
+.gradi{
+    background:linear-gradient(180deg, rgba(217, 217, 217, 0.182) 0%, rgba(217, 217, 217, 0.031) 100%)
+}
+.gradi2{
+    background: radial-gradient(111.04% 111.04% at 49.87% 0%, rgba(36, 36, 36, 0.758)a(217, 217, 217, 0.25) 34.89%, rgba(9, 9, 9, 0.879))
+}
+.chatGradient{
+    background: radial-gradient(111.04% 111.04% at 49.87% 0%, rgba(230, 230, 230, 0.3) 0%, rgba(217, 217, 217, 0.25) 34.89%, rgba(217, 217, 217, 0.15) 92.7%);
+}
+body{
+    background-color:rgb(2,6,23) ;
+}
