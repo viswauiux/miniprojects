@@ -17,7 +17,6 @@ const opAnimation = useRef()
          }
        },[activeCard])
      
-       console.log(activeCard);
  
   return (
     <>

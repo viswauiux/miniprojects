@@ -18,30 +18,30 @@ function ChatSection() {
               xmlns="http://www.w3.org/2000/svg"
               stroke="#ffffff"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
                 <path
                   d="M8 6C8 4.34315 9.34315 3 11 3H13C14.6569 3 16 4.34315 16 6V12C16 13.6569 14.6569 15 13 15H11C9.34315 15 8 13.6569 8 12V6Z"
                   stroke=""
-                  stroke-width="1.2"
+                  strokeWidth="1.2"
                 ></path>{" "}
                 <path
                   d="M19 11V12C19 15.3137 16.3137 18 13 18H11C7.68629 18 5 15.3137 5 12V11"
                   stroke=""
-                  stroke-width="1.2"
-                  stroke-linecap="round"
+                  strokeWidth="1.2"
+                  strokeLinecap="round"
                 ></path>{" "}
                 <path
                   d="M12 18L12 21"
                   stroke=""
-                  stroke-width="1.2"
-                  stroke-linecap="round"
+                  strokeWidth="1.2"
+                  strokeLinecap="round"
                 ></path>{" "}
               </g>
             </svg>
@@ -54,13 +54,13 @@ function ChatSection() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               stroke="#ffffff"
-              stroke-width="1"
+              strokeWidth="1"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 <path
@@ -82,11 +82,11 @@ function ChatSection() {
             width={"38"}
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></g>
             <g id="SVGRepo_iconCarrier">
               {" "}
@@ -111,8 +111,8 @@ function ChatSection() {
                   gradientUnits="userSpaceOnUse"
                 >
                   {" "}
-                  <stop stop-color="#2563eb"></stop>{" "}
-                  <stop offset="1" stop-color="#2563eb"></stop>{" "}
+                  <stop stopColor="#2563eb"></stop>{" "}
+                  <stop offset="1" stopColor="#2563eb"></stop>{" "}
                 </linearGradient>{" "}
               </defs>{" "}
             </g>
