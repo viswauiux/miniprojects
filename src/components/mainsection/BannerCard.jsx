@@ -1,25 +1,31 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 function BannerCard({ cards,activeCard,setActiveCard }) {
-
+const opAnimation = useRef()    
+// const [op,setOp]=useState('opacity')
     useEffect(()=>{
+        // setOp('opacity')
+        opAnimation.current.className='opacity'
         let time =  setTimeout(()=>{
            if(activeCard===3){setActiveCard(1)} 
            else{
              setActiveCard(activeCard+1)}
-         },3000)
+         },5000)
          return()=>{
            clearTimeout(time)
+           opAnimation.current.className=''
          }
        },[activeCard])
      
        console.log(activeCard);
-
+ 
   return (
     <>
       {cards.map((item) => (
-        <div key={item.id}>
+        <div   key={item.id}>
         { item.id == activeCard && <>
+         <div  ref={opAnimation} >
+
           <div className="flex h-full absolute z-10 justify-center gap-2 flex-col">
             <div className="flex text-2xs w-8   rounded-lg text-white bg-red-600 justify-center items-center">
               {item.new&&<h1 className=" p-1 px-2">NEW</h1>}
@@ -50,6 +56,8 @@ function BannerCard({ cards,activeCard,setActiveCard }) {
                 item.accent,
             }}
           ></div>
+         </div>
+
         </>}
         </div>
       ))}
