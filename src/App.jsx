@@ -1,8 +1,12 @@
 import React from 'react'
+import MainContainer from './MainContainer'
+ 
 
 function App() {
   return (
-    <div className=''>App</div>
+    <div className='h-screen text-white' style={{background: "radial-gradient(120.55% 120.55% at 50% -44.29%, #4D4D4D 0%, #171717 83.84%)"}}>
+      <MainContainer/>
+    </div>
   )
 }
 
