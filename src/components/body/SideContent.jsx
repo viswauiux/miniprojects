@@ -2,7 +2,7 @@ import React from "react";
 
 const SideContent = () => {
   return (
-    <div className="  flex  justify-center relative flex-col py-2 items-center h-full w-7">
+    <div className="  flex  justify-center relative flex-col  items-center h-full ">
       <div className="scale-x-100  text-gray-300 " style={{writingMode:"vertical-lr",transform: 'rotate(180deg)'}}  >Designer/Developer</div>
       <div className="flex items-end absolute bottom-0 mb-10 flex-col gap-4">
         {/* twitter */}

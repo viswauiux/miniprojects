@@ -2,18 +2,18 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex w-full text-gray-300 justify-around items-center h-full">
-      <div className=" text-3xl relative pl-5 self-end mb-36 ">
-      <div className="w-[5px] h-full -z-0 absolute top-0 -left-6" style={{background: "linear-gradient(180deg, #AE0000 0%, rgba(169, 0, 0, 0) 100%)"}}></div>
+    <div className="flex flex-col-reverse md:flex-col md:justify-end lg:flex-row lg:justify-center lg:gap-20  w-full text-gray-300 justify-start gap-2 items-center h-full">
+      <div className=" text-md md:text-lg relative flex flex-col my-12 pb-12 md:justify-end md:my-0 md:p-3   md:self-start md:ml-8 ">
+      <div className="w-[5px] h-full -z-0 absolute top-0  -left-4" style={{background: "linear-gradient(180deg, #AE0000 0%, rgba(169, 0, 0, 0) 100%)"}}></div>
 
-        <h1 className=" my-7">I'M</h1>
-        <h1  className="mb-7 font-name text-[68px] font-bold">VISWA KIRAN KATHI</h1>
-        <h1  className="font-body my-4">
+        <h1 className=" my-">I'M</h1>
+        <h1  className="my-2 font-name text-4xl md:text-5xl font-bold">VISWA KIRAN K</h1>
+        <h1  className="font-body mb-4">
           UI-UX DESIGNER/ <br /> FRONTEND DEVELOPER
         </h1>
-        <div  className="font-body flex gap-5 text-base ">
-          <button className="py-2 border-[0.5px] px-4" >Know More</button>
-          <button className="flex border-[0.5px] py-2 px-4  gap-4 bg-red-700">
+        <div  className="font-body flex gap-2 text-base ">
+          <button className="py-1 border-[0.5px] px-2" >Know More</button>
+          <button className="flex border-[0.5px] py-1 px-2  gap-2 bg-red-700">
             <h1>Download CV</h1>
             <svg
               width="20"
@@ -37,7 +37,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="w-[420px]">
+      <div className="w-[80%] md:w-[60%] md:self-end md:mr-8 lg:w-[40%]  ">
         <img
             className="-scale-x-100"
           src="https://i.ibb.co/31NZ2xr/Pngtree-teenage-doing-discussion-using-laptop-13016309.png"

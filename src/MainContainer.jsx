@@ -5,20 +5,21 @@ import NavbtnContainer from "./components/body/NavbtnContainer";
 
 const MainContainer = () => {
   return (
-    <div className=" relative font-body text-gray-300  h-full container m-auto">
-      <div className="absolute flex h-full  w-full z-10 ">
+    <div className=" relative font-body text-gray-300   h-full container m-auto">
+      <div className="absolute flex h-full px-5  w-full z-10 ">
         <SideContent />
         <Main />
         <NavbtnContainer />
       </div>
+      {/* RedStrip */}
       <div
-        className="w-[270px] h-full -z-0 absolute top-0 right-[20%]"
+        className="w-[170px] h-full translate-x-1/2 -z-0 absolute top-0 right-[50%] md:right-[25%]"
         style={{
           background:
             "linear-gradient(180deg, #AE0000 0%, rgba(169, 0, 0, 0) 100%)",
         }}
       ></div>
-      <div className=" -z-0 absolute bottom-0 right-0 text-[144px] font-welcome opacity-5 text-gray-400 font-black ">
+      <div className=" -z-0 absolute top-0 left-0 text-[104px] font-welcome opacity-5 text-gray-400 font-black "  style={{writingMode:"vertical-lr",transform: 'rotate(180deg)'}}>
         WELCOME
       </div>
       <div className="absolute top-[10%] left-[20%]">
