@@ -1,14 +1,15 @@
 import React from "react";
 import SideContent from "./components/body/SideContent";
-import Main from "./components/body/Main";
 import NavbtnContainer from "./components/body/NavbtnContainer";
+import { Outlet } from "react-router-dom";
 
 const MainContainer = () => {
+    
   return (
     <div className=" relative font-body text-gray-300   h-full container m-auto">
       <div className="absolute flex h-full px-5  w-full z-10 ">
         <SideContent />
-        <Main />
+        <Outlet/>
         <NavbtnContainer />
       </div>
       {/* RedStrip */}

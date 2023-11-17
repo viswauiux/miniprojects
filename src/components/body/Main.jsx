@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "../home/Home";
+import { Outlet } from "react-router-dom";
 
 const Main = () => {
 
@@ -35,7 +35,7 @@ const Main = () => {
         <path d="M15.4834 23.2121L19.7674 19.194C19.9892 18.9943 20.1665 18.7505 20.2879 18.4779C20.4093 18.2053 20.4722 17.9105 20.4722 17.6121C20.4722 17.3138 20.4093 17.0185 20.2879 16.7459C20.1665 16.4735 19.9892 16.2295 19.7674 16.03L15.4834 12.0121" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
  </button>
-      <Home />
+      <Outlet/>
     </div>
   );
 };

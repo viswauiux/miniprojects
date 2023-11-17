@@ -1,9 +1,12 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const SideContent = () => {
+    const toggle =  useSelector(state=>state.navToggle.nav)
+
   return (
     <div className="  flex  justify-center relative flex-col  items-center h-full ">
-      <div className="scale-x-100  text-gray-300 " style={{writingMode:"vertical-lr",transform: 'rotate(180deg)'}}  >Designer/Developer</div>
+      <div className="scale-x-100  text-gray-300 " style={{writingMode:"vertical-lr",transform: 'rotate(180deg)'}}  >{toggle=='/'?'Designer/Developer':toggle}</div>
       <div className="flex items-end absolute bottom-0 mb-10 flex-col gap-4">
         {/* twitter */}
         <svg
