@@ -7,6 +7,9 @@ module.exports = {
       body: ["Kreon", "serif"],
       welcome: ["Poppins", "sans-serif"],
     },
+    height:{
+      dvh:['100dvh']
+    }
   },
   plugins: [],
 };
