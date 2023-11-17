@@ -3,8 +3,8 @@ import React from "react";
 const NavbtnContainer = () => {
   return (
     <div className=" flex  h-full items-center justify-center">
-        <div className="flex flex-col justify-center items-center gap-6">
-        <div className=" border-2 p-[12px] border-red-700 rounded-full" >
+        <div className="flex flex-col justify-center items-center gap-4">
+        <div className=" border-2 p-[8px] border-red-700 rounded-full" >
         <svg
           width="6"
           height="6"

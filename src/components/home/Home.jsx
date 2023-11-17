@@ -3,17 +3,17 @@ import React from "react";
 const Home = () => {
   return (
     <div className="flex flex-col-reverse md:flex-col md:justify-end lg:flex-row lg:justify-center lg:gap-20  w-full text-gray-300 justify-start gap-2 items-center h-full">
-      <div className=" text-md md:text-lg relative flex flex-col my-12 pb-12 md:justify-end md:my-0 md:p-3   md:self-start md:ml-8 ">
+      <div className=" text-md md:text-lg lg:text-2xl relative flex  flex-col my-12 pb-12 md:justify-end md:my-0 md:p-3   md:self-start md:ml-8 lg:self-center ">
       <div className="w-[5px] h-full -z-0 absolute top-0  -left-4" style={{background: "linear-gradient(180deg, #AE0000 0%, rgba(169, 0, 0, 0) 100%)"}}></div>
 
         <h1 className=" my-">I'M</h1>
-        <h1  className="my-2 font-name text-4xl md:text-5xl font-bold">VISWA KIRAN K</h1>
+        <h1  className="my-2 font-name text-4xl lg:my-6 lg:text-[64px] md:my-4 md:text-[44px] font-bold">VISWA KIRAN K</h1>
         <h1  className="font-body mb-4">
           UI-UX DESIGNER/ <br /> FRONTEND DEVELOPER
         </h1>
-        <div  className="font-body flex gap-2 text-base ">
-          <button className="py-1 border-[0.5px] px-2" >Know More</button>
-          <button className="flex border-[0.5px] py-1 px-2  gap-2 bg-red-700">
+        <div  className="font-body flex gap-2 lg:gap-5 text-base ">
+          <button className="py-1 border-[0.5px] lg:px-5 px-2" >Know More</button>
+          <button className="flex border-[0.5px] py-1 lg:px-5 px-2  gap-2 bg-red-700">
             <h1>Download CV</h1>
             <svg
               width="20"

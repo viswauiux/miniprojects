@@ -18,7 +18,7 @@ const Main = () => {
             <div
             className=" absolute text-xl top-0 z-20 bg-gray-300 h-full w-full flex flex-col items-end  md:flex gap-2 p-24 left-0"
             style={{
-                background: " rgba(0, 0, 0, 0.25)",
+                background: " rgba(0, 0, 0, 0.75)",
                 backdropFilter: "blur(10.7px)",
             }}
             >
