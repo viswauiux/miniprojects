@@ -2,8 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-col md:justify-end lg:flex-row lg:justify-center lg:gap-20  w-full text-gray-300 justify-start gap-2 items-center h-full">
-      <div className=" text-md md:text-lg lg:text-2xl relative flex  flex-col my-12 pb-12 md:justify-end md:my-0 md:p-3   md:self-start md:ml-8 lg:self-center ">
+    <div className="flex flex-col-reverse md:flex-col md:justify-end lg:flex-row lg:justify-center lg:gap-20  w-full text-gray-300 justify-start gap-0 items-center h-full">
+      <div className=" text-md md:text-lg lg:text-2xl relative flex  flex-col mb-12 pb-12 md:justify-end md:my-0 md:p-3   md:self-start md:ml-8 lg:self-center ">
       <div className="w-[5px] h-full -z-0 absolute top-0  -left-4" style={{background: "linear-gradient(180deg, #AE0000 0%, rgba(169, 0, 0, 0) 100%)"}}></div>
 
         <h1 className=" my-">I'M</h1>
@@ -39,7 +39,7 @@ const Home = () => {
       </div>
       <div className="w-[80%] md:w-[60%] md:self-end md:mr-8 lg:w-[40%]  ">
         <img
-            className="-scale-x-100"
+            className="-scale-x-100    drop-shadow-xl"
           src="https://i.ibb.co/31NZ2xr/Pngtree-teenage-doing-discussion-using-laptop-13016309.png"
           alt="Pngtree-teenage-doing-discussion-using-laptop-13016309"
           border="0"
