@@ -11,28 +11,28 @@ import Sidebar from './src/components/myProjects/sidebar/Sidebar'
 const route = createBrowserRouter([
     {
         path:'/',
-        element:<App/>,
-        children:[
-            {
-                path:'/',
-                element:<Home/>,
-                children:[
-                    {
-                        path:'/',
-                        element:<Welcomebanner/>
-                    },
-                    {
-                        path:'/myprojects',
-                        element:<Projects/>
-                    }
+        element:<Sidebar/>,
+        // children:[
+        //     {
+        //         path:'/',
+        //         element:<Home/>,
+        //         children:[
+        //             {
+        //                 path:'/',
+        //                 element:<Welcomebanner/>
+        //             },
+        //             {
+        //                 path:'/myprojects',
+        //                 element:<Projects/>
+        //             }
                    
-                ]
-            },
-            {
-                path:"/sidebar",
-                element:<Sidebar/>
-            }
-        ]
+        //         ]
+        //     },
+        //     {
+        //         path:"/sidebar",
+        //         element:<Sidebar/>
+        //     }
+        // ]
     }
 ])
 const Index = () =>{
